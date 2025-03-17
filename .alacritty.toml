@@ -1,0 +1,111 @@
+[general]
+#import = [
+#    "~/.config/alacritty/themes/themes/alabaster_dark.toml"
+#]
+ipc_socket = true
+
+
+[terminal.shell]
+program = "/opt/homebrew/bin/tmux"
+args = ["new-session", "-A", "-D", "-s", "🏡 Home"]
+
+[window]
+padding.x = 0
+padding.y = 0
+
+decorations = "Full"
+#startup_mode = "Fullscreen"
+
+opacity = 0.95
+blur = true
+
+#option_as_alt = "Both"
+dynamic_title = true
+resize_increments  = true
+
+[font]
+normal.family = "PT Mono"
+size = 12
+
+offset.y = 0
+
+builtin_box_drawing = true 
+
+[scrolling]
+history = 100000
+
+# Number of lines the viewport will move for every line scrolled when
+# scrollback is enabled (history > 0).
+multiplier = 3
+
+
+[selection]
+save_to_clipboard = true
+
+[keyboard]
+
+[[keyboard.bindings]]
+key = "T"
+mods = "Command"
+chars = "\u0001c"
+
+[[keyboard.bindings]]
+key = "W"
+mods = "Command"
+chars = "\u0001d"
+
+[[keyboard.bindings]]
+key = "RBracket"
+mods = "Command|Shift"
+chars = "\u0001n"
+
+[[keyboard.bindings]]
+key = "LBracket"
+mods = "Command|Shift"
+chars = "\u0001p"
+
+[[keyboard.bindings]]
+key = "Key1"
+mods = "Command"
+chars = "\u00011"
+
+[[keyboard.bindings]]
+key = "Key2"
+mods = "Command"
+chars = "\u00012"
+
+[[keyboard.bindings]]
+key = "Key3"
+mods = "Command"
+chars = "\u00013"
+
+[[keyboard.bindings]]
+key = "Key4"
+mods = "Command"
+chars = "\u00014"
+
+[[keyboard.bindings]]
+key = "Key5"
+mods = "Command"
+chars = "\u00015"
+
+[[keyboard.bindings]]
+key = "Key6"
+mods = "Command"
+chars = "\u00016"
+
+[[keyboard.bindings]]
+key = "Key7"
+mods = "Command"
+chars = "\u00017"
+
+[[keyboard.bindings]]
+key = "Key8"
+mods = "Command"
+chars = "\u00018"
+
+[[keyboard.bindings]]
+key = "Key9"
+mods = "Command"
+chars = "\u00019"
+
